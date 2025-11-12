@@ -1,4 +1,3 @@
-/* Reset & Base */
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +31,6 @@ body {
   padding: 0 24px;
 }
 
-/* Header */
 .header {
   margin: 40px 0 32px;
 }
@@ -64,7 +62,6 @@ body {
   border-radius: 4px;
 }
 
-/* Botões */
 .btn-primary,
 .btn-outline {
   display: inline-flex;
@@ -100,7 +97,6 @@ body {
   border-color: var(--gray-100);
 }
 
-/* Search */
 .search-container {
   margin-bottom: 24px;
 }
@@ -139,7 +135,6 @@ body {
   border-color: var(--purple);
 }
 
-/* Cards Grid */
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -231,7 +226,6 @@ body {
   color: white;
 }
 
-/* Empty State */
 .empty-state {
   text-align: center;
   padding: 80px 20px;
@@ -379,7 +373,6 @@ body {
   }
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
   .header-content {
     flex-direction: column;
